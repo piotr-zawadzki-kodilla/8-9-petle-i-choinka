@@ -1,10 +1,10 @@
 function rysujChoinke(wys) {
-	for (var n = 1; n <=wys; n++) {
+	for (var n = 1; n <= wys; n++) {
 		star = "";
 		for (var i = wys; i > n; i--) {
 			star += " ";
 		}
-		for (var i = 1; i <= n*2-1; i++) {
+		for (var i = 1; i <= n * 2 - 1; i++) {
 			star += "*";
 		}
 		console.log(star);
