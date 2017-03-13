@@ -4,7 +4,7 @@ function rysujChoinke(wys) {
 		for (var i = wys; i > n; i--) {
 			star += " ";
 		}
-		for (var i = 1; i <= n * 2 - 1; i++) {
+		for (i = 1; i <= n * 2 - 1; i++) {
 			star += "*";
 		}
 		console.log(star);
